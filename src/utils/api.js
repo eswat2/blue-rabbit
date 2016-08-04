@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-function getPosts(username){
+function getPosts(){
   return axios.get(`http://localhost:3004/posts`);
 }
 
